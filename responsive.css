@@ -1,0 +1,43 @@
+/*
+here my webpage shows responsiveness according the divices
+when width is less than 470px there is change in font size as well as
+the github's and LinkedIn's link comes down the header.
+and for tab's there is chnage in font-size.
+*/
+@media all and (min-width: 470px){
+    .connect-me{
+        display:none;
+    }
+}
+@media all and (max-width: 1000px){
+    h1{
+        font-size:25px;
+        text-align:center;
+    
+    }
+    h3{
+        font-size:20px;
+    }
+    .connect-me{
+        display:none;
+    }
+}
+@media all and (max-width: 470px){
+    h1{
+        font-size:15px;
+       text-align: center;
+        
+    }
+    h3{
+        font-size:12px;
+        
+    }
+   .social-handal{
+   display: none; 
+    }
+    .connect-me{
+        display: block;
+        
+    }
+
+}
